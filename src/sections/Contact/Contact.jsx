@@ -5,7 +5,6 @@ import {
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
-  FaWhatsapp,
   FaPaperPlane,
 } from "react-icons/fa";
 
@@ -123,14 +122,6 @@ async function handleSubmit(event) {
               <FaGithub />
             </a>
 
-            <a
-              href="https://wa.me/+919023232193"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="WhatsApp"
-            >
-              <FaWhatsapp />
-            </a>
           </div>
         </div>
 

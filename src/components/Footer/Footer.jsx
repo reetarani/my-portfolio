@@ -2,7 +2,6 @@
 import {
   FaLinkedin,
   FaGithub,
-  FaWhatsapp,
   FaChevronUp,
 } from "react-icons/fa";
 
@@ -55,14 +54,6 @@ function Footer() {
                 <FaGithub />
               </a>
 
-              <a
-                href="https://wa.me/+919023232193"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="WhatsApp"
-              >
-                <FaWhatsapp />
-              </a>
             </div>
 
             <a
