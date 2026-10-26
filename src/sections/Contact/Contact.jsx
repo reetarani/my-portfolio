@@ -1,7 +1,5 @@
 import { useState } from "react";
 import {
-  FaEnvelope,
-  FaPhone,
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
@@ -82,6 +80,7 @@ async function handleSubmit(event) {
           </p>
 
           <div className="contact-details">
+<<<<<<< HEAD
             <a
               href="mailto:reetarani.samal@gmail.com"
               className="contact-detail"
@@ -90,6 +89,8 @@ async function handleSubmit(event) {
               <span>reetarani.samal@gmail.com</span>
             </a>
 
+=======
+>>>>>>> 41cb52f (removed email from contact section)
             <div className="contact-detail">
               <FaMapMarkerAlt aria-hidden="true" />
               <span>Bangalore, India</span>
