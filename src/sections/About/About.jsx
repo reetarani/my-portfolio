@@ -17,10 +17,11 @@ function About() {
         <div className="about-layout">
           <div className="about-image-wrap">
             <img
-              src="/images/about-workspace.jpg"
+              src={`${import.meta.env.BASE_URL}images/about-workspace.jpg`}
               alt="Developer workspace with a laptop"
               className="about-image"
             />
+
           </div>
 
           <div className="about-main">

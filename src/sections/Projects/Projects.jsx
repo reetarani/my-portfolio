@@ -33,12 +33,13 @@ function Projects() {
                 rel="noreferrer"
                 aria-label={`View ${project.title} website`}
               >
+                <div className="project-image-container">
                 <img
-                  src={project.image}
-                  alt={`${project.title} website preview`}
-                  className="project-image"
-                  loading="lazy"
+                    className="project-image"
+                    src={`${import.meta.env.BASE_URL}${project.image.replace(/^\/+/, "")}`}
+                    alt={`${project.title} website preview`}
                 />
+                </div>
               </a>
 
               <div className="project-content">
