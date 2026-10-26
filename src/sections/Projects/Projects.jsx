@@ -12,9 +12,15 @@ function Projects() {
             <h2>Some of My Recent Work</h2>
           </div>
 
-          <a href="#projects" className="projects-view-all">
+            <a
+            href="https://github.com/reetarani?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="projects-view-all"
+            >
             View All Projects
-          </a>
+            </a>
+
         </div>
 
         <div className="projects-grid">
