@@ -1,0 +1,64 @@
+
+.section-heading {
+  max-width: 720px;
+  margin-bottom: 48px;
+}
+
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+  color: #14b8a6;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-eyebrow-line {
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: #14b8a6;
+}
+
+.section-title {
+  margin: 0 0 18px;
+  color: #f1f5f9;
+  font-size: clamp(32px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1.5px;
+}
+
+.section-description {
+  margin: 0;
+  color: #94a3b8;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.section-heading-centered {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.section-heading-centered .section-eyebrow {
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .section-heading {
+    margin-bottom: 32px;
+  }
+
+  .section-title {
+    letter-spacing: -0.8px;
+  }
+
+  .section-description {
+    font-size: 15px;
+  }
+}
