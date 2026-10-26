@@ -92,7 +92,7 @@ function Hero() {
 
           <div className="hero-photo-frame">
             <img
-              src="/images/profile1.jpg"
+              src={`${import.meta.env.BASE_URL}/images/profile.png`}
               alt="Reetarani Samal, WordPress and MERN Stack Developer"
               className="hero-photo"
             />

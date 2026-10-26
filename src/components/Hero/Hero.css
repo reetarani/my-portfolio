@@ -163,7 +163,7 @@
 .hero-photo-frame {
   position: absolute;
   z-index: 1;
-  right: 8%;
+  right: 24%;
   bottom: 0;
   width: min(78%, 390px);
   height: 95%;
@@ -358,7 +358,7 @@
   }
 
   .hero-photo-frame {
-    right: 12%;
+    right: 27%;
     width: 72%;
     height: 100%;
   }

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import {
   FaEnvelope,
+  FaPhone,
   FaMapMarkerAlt,
   FaLinkedin,
   FaGithub,
@@ -88,6 +89,13 @@ async function handleSubmit(event) {
             >
               <FaEnvelope aria-hidden="true" />
               <span>reetarani.samal@gmail.com</span>
+            </a>
+            <a
+              href="tel:+919023232193"
+              className="contact-detail"
+            >
+              <FaPhone aria-hidden="true" />
+              <span>+91 9023232193</span>
             </a>
 
             <div className="contact-detail">
