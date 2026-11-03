@@ -24,7 +24,7 @@ export const projects = [
   category: "React + Vite",
   description:
     "A responsive developer portfolio built with React and Vite, featuring project showcases, professional experience, skills, and a contact form powered by Node.js, Express, and Gmail SMTP.",
-  image: "/images/profile.jpg",
+  image: "/images/myportfolio.png",
   liveLink: "YOUR_LIVE_PORTFOLIO_URL",
   githubLink: "https://github.com/reetarani/my-portfolio",
   technologies: [
@@ -36,6 +36,24 @@ export const projects = [
   ],
   demo: "https://github.com/reetarani/my-portfolio",
   details: "https://github.com/reetarani/my-portfolio",
+},
+{
+  title: "CRM & Lead Management System",
+  category: "MERN Stack | React.js | Node.js | Express.js | MongoDB | JWT Authentication",
+  description:
+    "A full-stack CRM application designed to manage customer leads, track follow-ups, and organize lead conversion through a secure, role-based dashboard.",
+  image: "/images/crm.png",
+  liveLink: "YOUR_LIVE_PORTFOLIO_URL",
+  githubLink: "https://github.com/reetarani/crm-lead-management",
+  technologies: [
+    "React",
+    "Vite",
+    "Node.js",
+    "Express",
+    "Nodemailer"
+  ],
+  demo: "https://github.com/reetarani/crm-lead-management",
+  details: "https://github.com/reetarani/crm-lead-management",
 },
 
 {

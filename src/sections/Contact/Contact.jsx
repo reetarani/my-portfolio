@@ -156,7 +156,6 @@ async function handleSubmit(event) {
             />
           </div>
 
-          
             <button
             type="submit"
             className="contact-submit"
