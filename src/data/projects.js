@@ -15,8 +15,8 @@ export const projects = [
       "MERN stack website for audio and lights courses with modern UI, dynamic content and responsive design.",
     image: "/images/kaal-preview.png",
     technologies: ["React.js", "Vite", "Custom UI", "SEO"],
-    demo: "https://kaal.com/",
-    details: "https://kaal.com/",
+    demo: "https://github.com/reetarani/kaal-website-MERN",
+    details: "https://github.com/reetarani/kaal-website-MERN",
   },
   
 {
@@ -117,5 +117,26 @@ export const projects = [
   demo: "https://highlinedentalpractice.com/",
   details: "https://highlinedentalpractice.com/",
 },
+{
+  title: "Kaal – Audio & Lights Academy",
+  category: "WordPress",
+  description:
+    "A modern, professional website for Kaal.co, designed to showcase creative services, highlight projects, and establish a strong digital brand presence. Built with WordPress, featuring a clean and responsive layout, engaging visuals, intuitive navigation, and a user-friendly experience across all devices.",
+  image: "/images/kaal.png",
+  liveLink: "https://kaal.co/",
+  githubLink: "",
+  technologies: [
+    "WordPress",
+    "PHP",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Responsive Design",
+    "Appointment Forms"
+  ]
+  ,
+  demo: "https://kaal.co/",
+  details: "https://kaal.co/",
+}
 
 ];
