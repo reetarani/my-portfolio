@@ -51,9 +51,9 @@ function Header() {
           ))}
 
           <a
-            href="/resume.pdf"
+            href={`${import.meta.env.BASE_URL}Reetarani_Samal.pdf`}
             className="header-resume"
-            download
+            download="Reetarani_Samal.pdf"
             onClick={closeMenu}
           >
             <span aria-hidden="true">↓</span> Resume
